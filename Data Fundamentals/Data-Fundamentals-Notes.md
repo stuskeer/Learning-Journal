@@ -52,3 +52,63 @@ Small data often delivers imediate value through straighforward analysis compare
 - Data ethics - Adhering to ethical guidelines for responsible data usage
 
   Products must be Scalable, Reliable, Secure, Performance Optermised and Documented
+
+
+
+# Introduction To Data Quality
+
+## Objectives
+- Recognise the core metrics in data engineering essential for ensuring data quality
+## Key Concepts
+- Importance of data quality
+- Importance of data standards
+- 
+**Data quality dimensions / metrics**
+
+|Data quality metric |	Alternative names	| Answers the questions |
+|--------------------|--------------------|-----------------------|
+|Accuracy |	Correctness, Validity |	How well does our data reflect the real world? Are false items likely?|
+|Integrity | Completeness |	How well does our data cover the real world? Are missing items likely?|
+|Consistency | Uniformity | How well does our data conform to a single standard? Are discrepancies likely?|
+|Timeliness | Recency, Availability | How up-to-date is our data? Are stale items likely?|
+
+**The reliability metric** - how trustworthy and dependable data is over time and across different use cases
+
+**Open standards** are guidelines for technology that anyone can use and contribute to, they offer 
+- compatibility
+- Flexibility
+- Innovation
+- Cost-effective
+
+**FAIR data standard**  
+**F**indable  
+**A**ccessible  
+**I**nteroperable  
+**R**eusable  
+
+**Dublin Core Metadata Initiative (DCMI)** offers a set of metadata standards used to describe resources in various domains. Its core elements provide a basic framework for describing digital resources such as documents, images, videos, and web pages  
+
+**Structured data** - data that is easily converted into a form usable for data analysis.  
+
+It has the following properties:  
+- May reside in relational databases
+- Predefined and formatted to a given structure
+- Highly organised
+- Easy to scale
+- Easy to access
+- Easy to store
+- Examples of structured data: Excel Spreadsheet.
+
+**Unstructured data** - more complex data and is possibly stored in a format that is not easily decoded.
+
+It has the following properties:  
+- vAny data not residing in relational databases.
+- They have internal structures (bits)
+- Stored in data warehouses/lakes
+- Requires significant storage options compared to structured data
+- Requires additional pre-processing before analysis
+- Examples of sources of Unstructured data: Audio, Social media, Images
+
+**Semi Structured** - Textual data files with a discernable pattern that allows them to be parsed easily. Examples include XMLs and JSONs.  
+
+
