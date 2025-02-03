@@ -6,7 +6,7 @@
 - Identify standards and engineering best practices
 
 ## Key Concepts
-- Data-driven culture  
+- Data-driven culture
 - Data types
 
 ### What Makes a Data-Driven Culture?
@@ -19,12 +19,12 @@
 
 ### The Characteristics of Data
 
-**The 5 Vs of Data**  
-**Volume** - The amount of data  
-**Variety** - The different types and sources  
-**Velocity** - The speed at which it is generated, collected, and processed  
-**Veracity** - The reliability and accuracy  
-**Value** - The insights and benefits we can get from it  
+#### The 5 Vs of Data
+- **Volume**: The amount of data
+- **Variety**: The different types and sources
+- **Velocity**: The speed at which it is generated, collected, and processed
+- **Veracity**: The reliability and accuracy
+- **Value**: The insights and benefits we can get from it
 
 ### Big Data vs Small Data
 Big data has a larger volume typically with more variety, and streams in faster.  
@@ -33,14 +33,13 @@ Small data often delivers immediate value through straightforward analysis compa
 
 ### Data Types
 
-**Qualitative** - Anything that cannot be described as a number
-  - Binomial - One of two values, e.g., Yes/No, 0/1
-  - Nominal - Named data, e.g., UK, USA, France or Green, Yellow, Red
-  - Ordinal - Has an order, e.g., Small, Medium, Large or Poor, Average, Good
-    
-**Quantitative** - Anything that can be described as a number
-  - Discrete - Data that is usually counted, e.g., chairs in an office or people in a town
-  - Continuous - Data that is measured, e.g., weight, height, or distance
+- **Qualitative**: Non-numeric data
+  - Binomial: Yes/No, 0/1
+  - Nominal: Named data (e.g., UK, USA, France)
+  - Ordinal: Ordered data (e.g., Small, Medium, Large)
+- **Quantitative**: Numeric data
+  - Discrete: Counted data (e.g., chairs in an office)
+  - Continuous: Measured data (e.g., weight, height)
 
 ### Engineering Best Practices
 
@@ -54,6 +53,8 @@ Small data often delivers immediate value through straightforward analysis compa
 
 Products must be scalable, reliable, secure, performance-optimized, and documented.
 
+---
+
 # Introduction to Data Quality
 
 ## Objectives
@@ -65,7 +66,11 @@ Products must be scalable, reliable, secure, performance-optimized, and document
 - Importance of following best practices, guidelines, and regulations
 - Data testing methodologies
   
-**Data quality dimensions/metrics**
+#### Data Quality Dimensions/Metrics
+- **Accuracy**: Reflects the real world
+- **Integrity**: Completeness of data
+- **Consistency**: Conformity to standards
+- **Timeliness**: Up-to-date data
 
 | Data quality metric | Alternative names | Answers the questions |
 |---------------------|-------------------|-----------------------|
@@ -82,11 +87,11 @@ Products must be scalable, reliable, secure, performance-optimized, and document
 - Innovation
 - Cost-effectiveness
 
-**FAIR data standard**  
-**F**indable  
-**A**ccessible  
-**I**nteroperable  
-**R**eusable  
+#### FAIR Data Standard
+- **F**indable
+- **A**ccessible
+- **I**nteroperable
+- **R**eusable 
 
 **Dublin Core Metadata Initiative (DCMI)** offers a set of metadata standards used to describe resources in various domains. Its core elements provide a basic framework for describing digital resources such as documents, images, videos, and web pages  
 
@@ -126,12 +131,10 @@ Benefits include - Real-time anomaly detection, proactive quality assurance, tim
 
 **Universally Unique Identifiers (UUIDs)** are standardized and globally unique across different systems.  
 
-### Data Testing Methodologies
+#### Data Testing Methodologies
+- **Horizontal Testing**: Ensuring data consistency across sources
+- **Historical Analysis**: Tracking changes in data quality over time
+- **Rule-based Testing**: Validating data against predefined rules
+- **Statistical Testing**: Assessing data reliability and quality
 
-**Horizontal testing** is a fundamental data quality testing methodology that focuses on ensuring data consistency and integrity across multiple data sources.  
-
-**Historical analysis** plays a vital role in data quality management by enabling organizations to track changes in data quality over time.  
-
-**Rule-based testing** is an essential component of data quality assurance, involving the validation of data against predefined rules or criteria.  
-
-**Statistical testing** techniques help assess the reliability and quality of datasets by detecting deviations from expected patterns or distributions.
+---
