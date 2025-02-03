@@ -62,7 +62,9 @@ Small data often delivers imediate value through straighforward analysis compare
 ## Key Concepts
 - Importance of data quality
 - Importance of data standards
-- 
+- Importance of following best practices, guidelines, and regulations
+- Data testing methodologies
+  
 **Data quality dimensions / metrics**
 
 |Data quality metric |	Alternative names	| Answers the questions |
@@ -102,7 +104,7 @@ It has the following properties:
 **Unstructured data** - more complex data and is possibly stored in a format that is not easily decoded.
 
 It has the following properties:  
-- vAny data not residing in relational databases.
+- Any data not residing in relational databases.
 - They have internal structures (bits)
 - Stored in data warehouses/lakes
 - Requires significant storage options compared to structured data
@@ -110,5 +112,32 @@ It has the following properties:
 - Examples of sources of Unstructured data: Audio, Social media, Images
 
 **Semi Structured** - Textual data files with a discernable pattern that allows them to be parsed easily. Examples include XMLs and JSONs.  
+
+**Data policies** are formalised guidelines and procedures that govern how data is collected, managed, used, and protected within an organisation. 
+
+**automated validation tools** help organisations identify anomalies and inconsistencies in their data.  
+Benefits include - Real-time anaomaly detection, Proactive quality assurance, timely corrections.  
+
+**Data profiling** involves examining the structure, content, and quality characteristics of data to identify errors, inconsistencies, and patterns contributing to data quality issues.  
+
+**Data lineage** the lifecycle of data, encompassing its origin, usage, and movement over time.  
+
+**Unique identifiers (UIDs)** are codes or numbers assigned to individual data records to distinguish them from others, think PK in table.  
+
+**Universally Unique Identifiers (UUIDs)** are standardised and globally unique across different systems.  
+
+### Data Testing Methodologies
+
+**Horizontal testing** is a fundamental data quality testing methodology that focuses on ensuring data consistency and integrity across multiple data sources.  
+
+**Historical analysis** plays a vital role in data quality management by enabling organisations to track changes in data quality over time.  
+
+**Rule-based testing** is an essential component of data quality assurance, involving the validation of data against predefined rules or criteria.  
+
+**Statistical testing** techniques help assess the reliability and quality of datasets by detecting deviations from expected patterns or distributions.  
+
+
+
+
 
 
