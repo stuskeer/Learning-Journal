@@ -71,6 +71,7 @@ Products must be scalable, reliable, secure, performance-optimized, and document
 - **Integrity**: Completeness of data
 - **Consistency**: Conformity to standards
 - **Timeliness**: Up-to-date data
+- **Reliability**: Consistent and accurate over time, depended on for critical decisions
 
 | Data quality metric | Alternative names | Answers the questions |
 |---------------------|-------------------|-----------------------|
@@ -78,6 +79,7 @@ Products must be scalable, reliable, secure, performance-optimized, and document
 | Integrity           | Completeness      | How well does our data cover the real world? Are missing items likely? |
 | Consistency         | Uniformity        | How well does our data conform to a single standard? Are discrepancies likely? |
 | Timeliness          | Recency, Availability | How up-to-date is our data? Are stale items likely? |
+| Reliability         | NA                |Is is consistently accurate over time? can it be depended on for critical decisions? |
 
 **The reliability metric** - How trustworthy and dependable data is over time and across different use cases
 
