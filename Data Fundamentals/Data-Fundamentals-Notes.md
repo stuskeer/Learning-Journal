@@ -148,6 +148,37 @@ Models include
 
 **Best Practices for Semantic Validity**
 - Consistent use of vocabularies and ontologies ensures adherance to predefined items and definitions
+
+---
+
+# Introduction to Managing Data Projects and Products  
+
+## Objectives
+- Explain how Agile principles and frameworks can foster adaptability and collaboration 
+
+## Key Concepts  
+
+- Agile vs Waterfall  
+- limitations of the Waterfall model in the context of data engineering projects
+
+## Agile Methodology  
+
+Values flexibility, iterative progress, and customer involvement  
+Works well when creating innovative products when requirements are likely to evolve or market trends change rapidly.  
+
+## Waterfall Methodology  
+
+Traditional and linear approach  
+Works well for projects with clear static requirements where changes are minimal  
+
+### The Limitations of Waterfall  
+
+- Difficulty accommodating change  
+- Lengthy development cycles  
+- Lack of stakeholder feedback  
+- Challenges with data complexity   
+
+  
 - Enhances interoperability and semantic clarity of data
 - Enables effective communication and interpretation across different systems and stakeholders
   
